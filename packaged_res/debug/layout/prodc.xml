@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:padding="16dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="404dp"
+            android:layout_height="888dp"
+            android:layout_margin="2dp"
+            app:columnCount="2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:rowCount="3"
+            tools:ignore="MissingConstraints">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/first"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessLeaf">
+
+                    <ImageView
+                        android:id="@+id/cold"
+                        android:layout_width="157dp"
+                        android:layout_height="220dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/cold"
+                        tools:ignore="ContentDescription" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="41dp"
+                        android:layout_below="@+id/cold"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="-17dp"
+                        android:text="17 SR"
+                        tools:ignore="HardcodedText" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ll"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessLeaf">
+
+
+                    <ImageView
+                        android:id="@+id/glazyy"
+                        android:layout_width="156dp"
+                        android:layout_height="192dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/glazy"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/glazyy"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="5 SR"
+                        tools:ignore="HardcodedText" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hh"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessLeaf">
+
+                    <ImageView
+                        android:id="@+id/sex"
+                        android:layout_width="154dp"
+                        android:layout_height="199dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/longg"
+                        tools:ignore="ContentDescription" />
+                    <TextView
+                        android:layout_width="71dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/sex"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="-16dp"
+                        android:text="5 SR"
+                        tools:ignore="HardcodedText" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sc"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessLeaf">
+
+                    <ImageView
+                        android:id="@+id/org"
+                        android:layout_width="156dp"
+                        android:layout_height="192dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/origg"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/org"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="11 SR"
+                        tools:ignore="HardcodedText" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/thre"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessLeaf">
+
+                    <ImageView
+                        android:id="@+id/Jj"
+                        android:layout_width="156dp"
+                        android:layout_height="192dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/dark"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Jj"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:text="80 SR"
+                        tools:ignore="HardcodedText" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fiv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1"
+                tools:ignore="DuplicateIds">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessLeaf">
+
+                    <ImageView
+                        android:id="@+id/fiv"
+                        android:layout_width="157dp"
+                        android:layout_height="183dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/teaa"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="83dp"
+                        android:layout_height="32dp"
+                        android:layout_below="@+id/fiv"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="-7dp"
+                        android:text="18 SR"
+                        tools:ignore="HardcodedText" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/first"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp"
+                app:layout_columnWeight="0.2"
+                app:layout_rowWeight="0.2"
+                tools:ignore="DuplicateIds">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessLeaf">
+
+                    <Button
+                        android:id="@+id/bba"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="back"
+                        android:text="Home Screen "
+                        android:background="@color/hot_Pink"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription" />
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
